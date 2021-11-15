@@ -22,7 +22,7 @@
           </div>
           <div class="product-info">
             <h1>{{ product }}</h1>
-              <p> {{ description }}</p>
+              <p class="description"> {{ description }}</p>
               <hr>
               <p v-if="inventory > 10">In Stock</p>
               <p v-else-if="inventory <= 10 && inventory > 0">Almost sold out</p>
@@ -37,8 +37,10 @@
               <ul>
                   <li v-for="size in sizes">{{ size }}</li>
               </ul>
-              <button class="button" @click="addToCart">Add to Cart</button>
-              <button class="button" @click="removeFromCart">Remove from Cart</button>
+              <div class="flex">
+                  <button class="button" @click="addToCart">Add to Cart</button>
+                  <button class="button" @click="removeFromCart">Remove from Cart</button>
+              </div>
           </div>
         </div>
       </div>

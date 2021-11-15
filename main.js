@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return {
             cart: 0,
             product: 'Socks',
-            description: 'Some description I guess',
+            description: 'Some really handy socks!',
             imageURL: './assets/images/socks_green.jpg',
             imageDescription: 'Socks image',
             inStock: true,
