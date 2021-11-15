@@ -7,7 +7,8 @@ const app = Vue.createApp({
             imageDescription: 'Socks image',
             inStock: true,
             inventory: 8,
-            onSale: true
+            onSale: true,
+            details: ['50% cotton', '30% wool', '20% polyester']
         }
     }
 })
