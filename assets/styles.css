@@ -25,9 +25,9 @@ body {
   border: 1px solid #d8d8d8;
   padding: 30px 30px;
   background-color: white;
-  -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10)
 }
 
 .color-circle {
@@ -57,8 +57,8 @@ img {
   width: 70%;
   margin: 40px;
   padding: 15px;
-  -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
   box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10);
 }
 
@@ -81,9 +81,9 @@ li {
   background: linear-gradient(-90deg, #84cf6a, #16c0b0);
   height: 60px;
   margin-bottom: 25px;
-  -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10)
 }
 
 .out-of-stock-img {
@@ -123,17 +123,17 @@ p {
   margin: 40px;
   border: 2px solid #d8d8d8;
   background-color: white;
-  -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10)
 }
 
 .review-container {
   width: 425px;
   padding: 20px;
   background-color: white;
-  -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
-  -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
+  -webkit-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
+  -moz-box-shadow: 0 2px 15px 12px rgba(0, 0, 0, 0.10);
   box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10);
   margin-left: 40px;
   border: 2px solid #d8d8d8;
