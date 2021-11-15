@@ -23,7 +23,7 @@ body {
   margin: 25px 100px;
   float: right;
   border: 1px solid #d8d8d8;
-  padding: 10px 30px;
+  padding: 30px 30px;
   background-color: white;
   -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
   -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
@@ -84,6 +84,10 @@ li {
   -webkit-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
   -moz-box-shadow: 0 2px 15px -12px rgba(0, 0, 0, 0.10);
   box-shadow: 2px 15px 12px rgba(0, 0, 0, 0.10);
+}
+
+.out-of-stock-img {
+  opacity: 0.5;
 }
 
 .out-of-stock-img {
