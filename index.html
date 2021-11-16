@@ -18,10 +18,10 @@
         <div class="product-container">
             <div class="product-image">
                 <!-- image goes here -->
-                <img :class="{ 'out-of-stock-img': !inStock }" :src="imageURL" :alt="imageDescription">
+                <img :class="{ 'out-of-stock-img': !inStock }" :src="image" :alt="imageDescription">
             </div>
             <div class="product-info">
-                <h1>{{ product }}</h1>
+                <h1>{{ title }}</h1>
                 <p class="description"> {{ description }}</p>
                 <hr>
                 <p v-if="inventory > 10">In Stock</p>
@@ -35,9 +35,9 @@
                 </ul>
                 <div
                         class="color-circle"
-                        v-for="variant in variants"
+                        v-for="(variant, index) in variants"
                         :key="variant.id"
-                        @mouseover="updateImage(variant.image)"
+                        @mouseover="updateVariant(index)"
                         :style="{ backgroundColor: variant.color }"></div>
                 <ul>
                     <li v-for="size in sizes">{{ size }}</li>
